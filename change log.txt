@@ -1,0 +1,18 @@
+Version 1.0
+---------------------------------------------
+*initial release
+
+
+Version 1.1
+---------------------------------------------
+*pcb dimension fine tuned
+*thinner pcb
+*protection diode for 3.3v inverse polarity
+*Hirose for a pot/encoder connection
+*Hirose for external connection
+*support for magnetic encoder
+*hall effect based current sensor
+*100n capacitor for a pot
+*100n capacitor for a motor
+*Separate grounds for logic and h-bridge
+

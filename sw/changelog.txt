@@ -1,0 +1,22 @@
+0.1.0
+---------------------------------------
+-Position controller implemented
+-Sensor interfaces implemented
+
+0.2.0
+---------------------------------------
+-Constant PWM mode added
+
+0.3.0
+---------------------------------------
+-Speed controller added
+-Many small changes to controllers
+-Some single value gains are replaced with curves
+
+0.4.0
+---------------------------------------
+-I2C interface implemented
+
+0.5.0
+---------------------------------------
+-Simplified FW for debuging purposes 

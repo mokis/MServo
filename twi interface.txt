@@ -1,0 +1,18 @@
+﻿		
+Position		R
+Speed			R
+Temperature		R
+Voltage			R
+Current			R
+Torque (abr)	R
+PWM ratio		R
+
+Mode			R/W (sleep/idle/pwm ctrl/pos ctrl/speed ctrl/torque ctrl)
+Pos setpoint	R/W
+Speed setpoint	R/W
+Trq setpoint	R/W
+PWM setpoint    R/W
+Current limit	R/W
+
+TWI ID			R/W
+FW version		R

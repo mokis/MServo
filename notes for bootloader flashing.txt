@@ -1,0 +1,38 @@
+ISP Clock:
+Try to reduce ISP clock speed if you cannot connect to processor via ICSP-header
+If board is assembled correctly and wiring is short enough, up to 2Mhz should work. 
+
+
+Bootloader:
+C:\arduino-1.0.4\hardware\arduino\bootloaders\atmega\ATmegaBOOT_168_atmega328_pro_8MHz.hex
+
+
+Fuses:
+Extended: 0xFF
+High:     0xDA
+Low:      0xFF
+
+
+Lock bits:
+Lockbit:  0xFF
+
+
+boards.txt config:
+pro328.name=Arduino Pro or Pro Mini (3.3V, 8 MHz) w/ ATmega328
+
+pro328.upload.protocol=arduino
+pro328.upload.maximum_size=30720
+pro328.upload.speed=57600
+
+pro328.bootloader.low_fuses=0xFF
+pro328.bootloader.high_fuses=0xDA
+pro328.bootloader.extended_fuses=0xFF
+pro328.bootloader.path=atmega
+pro328.bootloader.file=ATmegaBOOT_168_atmega328_pro_8MHz.hex
+pro328.bootloader.unlock_bits=0x3F
+pro328.bootloader.lock_bits=0x0F
+
+pro328.build.mcu=atmega328p
+pro328.build.f_cpu=8000000L
+pro328.build.core=arduino
+pro328.build.variant=standard
